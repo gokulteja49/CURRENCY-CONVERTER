@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(219, 219, 129);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container {
+    height: 45vh;
+    width: 300px;
+    border: 2px solid lightgray;
+    border-radius: 6px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h4 {
+    margin-left: 60px;
+}
+
+.container input {
+    margin-bottom: 20px;
+    border: none;
+    border: 1px solid lightgray;
+    outline: none;
+    width: 220px;
+    height: 1.75rem;
+    padding-left: 5px;
+  width: 100%;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+.item1 select{
+    height: 20px;
+    border: none;
+
+}
+.item2 select{
+    height: 20px;
+    border: none;
+    
+}
+
+.item1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    
+}
+.item2{  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+border-radius: 4px;}
+  
+
+.item1 img{
+    height: 40px;
+    width: 40px;
+}
+.item2 img{
+    height: 40px;
+    width: 40px;
+
+}
+
+
+button {
+    height: 40px;
+    width: 220px;
+    margin-left: 10px;
+    border: 1px solid lightgray;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 7px;
+}
+
+.from {
+
+
+    margin-left: 20px;
+
+}
